@@ -1,0 +1,127 @@
+:root {
+    --colorPrimario: #000;
+    --colorSecundario: #dad5d5;
+    --colorAcentos: #11bfbf;
+    --colorAcento2: #7d7d7d;
+    --fondoPrincipal: #FFF;
+
+}
+
+altura {
+    height: 100vh;
+}
+
+.cabecera {
+    height: 100px;
+    background-color: var(--fondoPrincipal);
+
+
+}
+
+.logo {
+    height: 120px;
+    transition: all 0.4s ease;
+}
+.logo:hover{
+    transform: scale(1.05);
+    filter: saturate(180%);
+}
+.textoHeader {
+    text-align: center;
+}
+
+.textoHeader h1 {
+    font-size: 24px;
+    color: var(--colorAcentos);
+    font-weight: bold;
+
+}
+
+.separador {
+    margin: 0;
+    padding: 0;
+    height: 3px;
+    background-color: var(--colorSecundario);
+
+}
+
+.menu {
+height:max-content ;   
+border: var(--colorSecundario) solid 3px;
+min-height: 100vh;    
+padding-top: 10px;
+    position: relative;
+    color: var(--colorPrimario);
+}
+
+.menu a {
+    color: var(--colorPrimario);
+}
+
+.menu>li:hover>a {
+    color: var(--colorSecundario);
+}
+.btn-outline-dark:hover{
+    color: var(--colorSecundario);
+}
+.textoHeader h2 {
+    font-size: 18px;
+}
+.dropend{
+    margin: 0;
+padding: 0;
+top:0;
+left:0%;
+}
+.imgMenu{
+    width: 85%;
+    border: var(--colorSecundario) solid 5px;
+    transition:all 0.4s ease;
+}
+.imgMenu:hover{
+    transform: scale(1.01);
+    filter: saturate(180%);
+}
+div>h2{
+    color: var(--colorAcentos);
+    font-weight: bold;
+}
+.ministerio h2{
+    color: var(--colorPrimario);
+}
+.imgCentro{
+    width: 40%;
+}
+.iconos{
+    width: 32px;
+    height: 32px;
+    margin: 8px;
+}
+footer h4{
+    font-size: 16px;
+}
+
+footer > div{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+footer img:hover{
+    transform: scale(1.3);
+    filter: saturate(180%);
+}
+footer img{
+    transition: all ease;
+}
+.centro{
+    height: 100%;
+
+}
+
+.linea{
+    border-top: var(--colorSecundario) solid 4px;
+    padding-top: 20px;
+}
+.lineaAbajo{
+    border-bottom: var(--colorSecundario) solid 4px;
+    padding-top: 20px;
+}
