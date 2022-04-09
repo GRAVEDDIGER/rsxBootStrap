@@ -17,14 +17,16 @@ altura {
 
 
 }
-
+.imgLogo{
+    height: 120px;
+}
 .logo {
     height: 120px;
     transition: all 0.4s ease;
 }
 .logo img{
     width: 130px;
-    
+
 }
 .logo:hover{
     transform: scale(1.05);
