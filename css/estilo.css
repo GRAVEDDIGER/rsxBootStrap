@@ -78,7 +78,7 @@ h2 {
     font-size: 18px;
 }
 div >h3{
-    font-size: 26px;
+    font-size: 30px;
     color: var(--colorAcentos);
     font-weight: bold;
 }
@@ -150,11 +150,21 @@ footer img{
     border: #dad5d5 solid 4px !important;
 
 }
+
 @media (min-width: 768px ){
 .dpe{
     transform: translateX(100%) !important;
     
-}}
+}
+
+.mapasD {
+    width: 45%;
+    float: right;
+    margin-bottom: 5px;
+    padding-bottom: 3px;
+    margin-left: 14px;
+}
+}
 .ddm {
     padding: 0px !important;
 }
