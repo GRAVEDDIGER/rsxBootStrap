@@ -21,13 +21,12 @@ altura {
     height: 120px;
 }
 .logo {
-    height: 120px;
+    height: fit-content;
     transition: all 0.4s ease;
+    padding-bottom: 10px;
 }
-.logo img{
-    width: 130px;
 
-}
+
 .logo:hover{
     transform: scale(1.05);
     filter: saturate(180%);
@@ -37,7 +36,7 @@ altura {
 }
 
 .textoHeader h1 {
-    font-size: 24px;
+    font-size: 26px;
     color: var(--colorAcentos);
     font-weight: bold;
 
@@ -52,8 +51,10 @@ altura {
 }
 
 .menu {
-height:max-content ;   
+height:auto ;   
 border: var(--colorSecundario) solid 3px;
+border-bottom: 0;
+border-top: 0;
 min-height: 100vh;    
 padding-top: 10px;
     position: relative;
@@ -61,16 +62,27 @@ padding-top: 10px;
 }
 
 .menu a {
-    color: var(--colorPrimario);
-}
-
-.menu>li:hover>a {
-    color: var(--colorSecundario);
+    color: var(--colorPrimario) ;
 }
 .btn-outline-dark:hover{
-    color: var(--colorSecundario);
+    background-color: var(--colorSecundario) !important ;
 }
-.textoHeader h2 {
+.menu li:hover >a{
+    color: var(--fondoPrincipal);
+}
+
+.btn-outline-dark:hover{
+    color: var(--fondoPrincipal);
+}
+h2 {
+    font-size: 18px;
+}
+div >h3{
+    font-size: 26px;
+    color: var(--colorAcentos);
+    font-weight: bold;
+}
+p{
     font-size: 18px;
 }
 .dropend{
@@ -129,5 +141,20 @@ footer img{
 }
 .lineaAbajo{
     border-bottom: var(--colorSecundario) solid 4px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
+}
+
+.dropdown-menu{
+    margin: 0px !important;
+    padding: 0px !important;
+    border: #dad5d5 solid 4px !important;
+
+}
+@media (min-width: 768px ){
+.dpe{
+    transform: translateX(100%) !important;
+    
+}}
+.ddm {
+    padding: 0px !important;
 }
