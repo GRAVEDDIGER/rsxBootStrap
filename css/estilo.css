@@ -7,9 +7,6 @@
 
 }
 
-altura {
-    height: 100vh;
-}
 
 .cabecera {
     height: 120px;
@@ -17,8 +14,10 @@ altura {
 
 
 }
+
+
 .imgLogo{
-    height: 120px;
+    height: 110px;
 }
 .logo {
     height: fit-content;
@@ -31,24 +30,15 @@ altura {
     transform: scale(1.05);
     filter: saturate(180%);
 }
-.textoHeader {
-    text-align: center;
-}
 
-.textoHeader h1 {
-    font-size: 26px;
+
+h1 {
+    font-size: 30px;
     color: var(--colorAcentos);
     font-weight: bold;
 
 }
 
-.separador {
-    margin: 0;
-    padding: 0;
-    height: 3px;
-    background-color: var(--colorSecundario);
-
-}
 
 .menu {
 height:auto ;   
@@ -88,12 +78,7 @@ h3{
 p{
     font-size: 18px;
 }
-.dropend{
-    margin: 0;
-padding: 0;
-top:0;
-left:0%;
-}
+
 .imgMenu{
     width: 85%;
     border: var(--colorSecundario) solid 5px;
@@ -103,13 +88,12 @@ left:0%;
     transform: scale(1.01);
     filter: saturate(180%);
 }
-div>h2{
-    color: var(--colorAcentos);
+
+h2{
+    color: var(--colorPrimario);
     font-weight: bold;
 }
-.ministerio h2{
-    color: var(--colorPrimario);
-}
+
 .imgCentro{
     width: 40%;
     border: var(--colorSecundario) solid 4px;
@@ -155,12 +139,6 @@ footer img{
 
 }
 
-@media (min-width: 768px ){
-.dpe{
-    transform: translateX(100%) !important;
-    
-}
-
 .mapasD {
     width: 45%;
     float: right;
@@ -168,7 +146,34 @@ footer img{
     padding-bottom: 3px;
     margin-left: 14px;
 }
-}
+
 .ddm {
     padding: 0px !important;
 }
+@media (min-width: 767px ){
+.dpe{
+    transform: translateX(100%) !important;
+    
+}
+}
+
+@media (min-width: 768px ) and (max-width: 992px ) {
+    .textoH{
+        width: 75%;
+    }
+    .textoH h1{
+        font-size: 26px;
+    }
+    .textoH h2 {font-size: 18px;}
+    }
+    @media (max-width: 576px ){
+        .imgLogo{
+            height: 80px;
+            margin:10px 5px;
+            padding:0;
+        }
+        h1{font-size: 24px;}
+            h2{font-size:16px;}
+
+        }
+   
