@@ -1,0 +1,143 @@
+.cabecera {
+  height: 120px;
+  background-color: #fff; }
+
+.imgLogo {
+  height: 110px; }
+
+.logo {
+  height: fit-content;
+  transition: all 0.4s ease;
+  padding-bottom: 10px; }
+
+.logo:hover {
+  transform: scale(1.05);
+  filter: saturate(180%); }
+
+h1 {
+  font-size: 30px;
+  color: #11bfbf;
+  font-weight: bold; }
+
+.menu {
+  height: auto;
+  border: #dad5d5 solid 3px;
+  border-bottom: 0;
+  border-top: 0;
+  min-height: 100vh;
+  padding-top: 10px;
+  position: relative;
+  color: #000; }
+
+.menu a {
+  color: #000; }
+
+.btn-outline-dark:hover {
+  background-color: #dad5d5 !important; }
+
+.menu li:hover > a {
+  color: white; }
+
+.btn-outline-dark:hover {
+  color: white; }
+
+h2 {
+  font-size: 18px; }
+
+h3 {
+  font-size: 30px;
+  color: #11bfbf;
+  font-weight: bold; }
+
+.mapas {
+  border: #dad5d5 solid 4px; }
+
+p {
+  font-size: 18px; }
+
+.imgMenu {
+  width: 85%;
+  border: #dad5d5 solid 5px;
+  transition: all 0.4s ease; }
+
+.imgMenu:hover {
+  transform: scale(1.01);
+  filter: saturate(180%); }
+
+h2 {
+  color: #000;
+  font-weight: bold; }
+
+.imgCentro {
+  width: 40%;
+  border: #dad5d5 solid 4px; }
+
+.iconos {
+  width: 32px;
+  height: 32px;
+  margin: 8px; }
+
+footer h4 {
+  font-size: 16px; }
+
+footer > div {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+footer img:hover {
+  transform: scale(1.3);
+  filter: saturate(180%); }
+
+footer img {
+  transition: all ease; }
+
+.centro {
+  height: 100%; }
+
+.linea {
+  border-top: #dad5d5 solid 4px;
+  padding-top: 20px; }
+
+.lineaAbajo {
+  border-bottom: #dad5d5 solid 4px;
+  /* padding-top: 20px; */ }
+
+.dropdown-menu {
+  margin: 0px !important;
+  padding: 0px !important;
+  border: #dad5d5 solid 4px !important; }
+
+.mapasD {
+  width: 45%;
+  float: right;
+  margin-bottom: 5px;
+  padding-bottom: 3px;
+  margin-left: 14px; }
+
+.ddm {
+  padding: 0px !important; }
+
+@media (min-width: 767px) {
+  .dpe {
+    transform: translateX(100%) !important; } }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .textoH {
+    width: 75%; }
+  .textoH h1 {
+    font-size: 26px; }
+  .textoH h2 {
+    font-size: 18px; } }
+
+@media (max-width: 576px) {
+  .imgLogo {
+    height: 80px;
+    margin: 10px 5px;
+    padding: 0; }
+  h1 {
+    font-size: 24px; }
+  h2 {
+    font-size: 16px; } }
+
+
+/*# sourceMappingURL=/estilo.d8b4bf80.css.map */
